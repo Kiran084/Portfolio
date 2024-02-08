@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#KP{
+    margin-bottom: 170px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;  
+    /* background-color: aliceblue; */
+    
+}
+
+p{
+    color: aliceblue;
+    
+}
+
+.nav{
+     margin: 0;
+     background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+     font-size: xx-large;
+    padding: 1rem;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 90;
+
+
+}
+.left_heading {
+    font-size: 35px;
+    margin-top: 14px;
+     
+}
+
+.right_heading {
+
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    justify-content: end;   
+    font-size: 30px; 
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+    padding: 6px;    
+}
+.no_bullets{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    
+}
+.no_bullet:hover{
+    height: 40px;
+    width: 40px;
+    color: gray;    
+}
+.no_bullet{
+    border-radius: 4px;
+}
+.Bigbody{
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    padding: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 4rem; */
+    height: 70vh;
+}
+header ul li a:hover{
+    color: gray;
+    font-size: 1.03em;
+}
+
+
+.text{
+    /* padding: 2rem; */
+    font-size: 2rem;
+    width: 100%;   
+}
+.bird_image{
+    height: 350px;
+    position: relative;
+    width: 100%;
+    
+}
+.skill{
+   
+    box-sizing: border-box;
+    margin: 2px;
+    background-color:white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px; 
+    /* width:100vw; */
+    
+    /* border: 2px red solid;   */
+    /* margin-top: 200px; */
+}
+.images{
+    flex-wrap: wrap;
+}
+.images:hover{
+    
+    
+    cursor: pointer;
+}
+
+.H1{
+    margin-top: 100px;
+    font-size: 5rem;
+    color: black;
+    display:flex;
+    justify-content: center;
+    
+}
+.centerskill{
+display: flex;
+flex-direction: row;
+width: 100vw;
+gap: 1rem;
+position: relative;
+animation: moveskill 10s infinite;
+animation-timing-function: linear;
+
+}
+
+@keyframes moveskill {
+  from {left: 10rem;}
+  to {left:0px;}
+  
+}
+.img1{
+    
+    width: 150px;
+    padding: 4px;
+    height: 100px;
+    border: 2px solid black;   
+}
+
+.micro_small{
+    color: gray;
+}
+
+.project{
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+.recipe{
+    padding: 30px;
+    border-radius: 45px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.recipe:hover{
+    box-shadow: 0 0 12px 5px rgba(86, 122, 122, 0.5);
+    opacity: 0.5;
+    cursor: pointer;  
+}
+
+.project1{
+    /* margin: 1px; */
+    /* margin-top: 3px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.centertext{
+    text-align: center;
+}
+  
+
+
+  
